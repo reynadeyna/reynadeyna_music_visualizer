@@ -1,0 +1,36 @@
+Model,Visual Parameter,Best Params,Mean Squared Error
+LinearRegression,0,,0.059881776652213975
+LinearRegression,1,,32476.937033673054
+LinearRegression,2,,0.10305578231041287
+LinearRegression,3,,5.669937756276022e-32
+LinearRegression,4,,1.1107161545511847e-28
+DecisionTreeRegressor,0,{'max_depth': 4},6.7
+DecisionTreeRegressor,1,{'max_depth': 4},14107.03405999622
+DecisionTreeRegressor,2,{'max_depth': 3},0.5785568501910566
+DecisionTreeRegressor,3,{'max_depth': 4},0.000273801636178583
+DecisionTreeRegressor,4,{'max_depth': 3},0.5370543245414655
+RandomForestRegressor,0,"{'max_depth': 4, 'n_estimators': 50}",0.664563300155212
+RandomForestRegressor,1,"{'max_depth': 5, 'n_estimators': 100}",15414.814161824228
+RandomForestRegressor,2,"{'max_depth': 4, 'n_estimators': 100}",0.19880632163378373
+RandomForestRegressor,3,"{'max_depth': 4, 'n_estimators': 100}",4.1377069504784375e-05
+RandomForestRegressor,4,"{'max_depth': 5, 'n_estimators': 100}",0.10465475946170961
+GradientBoostingRegressor,0,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}",1.851002640476679
+GradientBoostingRegressor,1,"{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100}",14649.763349512697
+GradientBoostingRegressor,2,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 50}",0.08751212274903326
+GradientBoostingRegressor,3,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}",8.993081756124245e-05
+GradientBoostingRegressor,4,"{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100}",0.05473799863341659
+SVR,0,"{'svr__C': 10, 'svr__gamma': 'scale'}",49.033893061754384
+SVR,1,"{'svr__C': 10, 'svr__gamma': 'scale'}",29036.801746531153
+SVR,2,"{'svr__C': 10, 'svr__gamma': 'scale'}",0.8272209043549772
+SVR,3,"{'svr__C': 1, 'svr__gamma': 'scale'}",0.008906346048501526
+SVR,4,"{'svr__C': 10, 'svr__gamma': 'scale'}",0.7819215019658194
+MLPRegressor,0,"{'alpha': 0.001, 'hidden_layer_sizes': (100,)}",180.8069390876755
+MLPRegressor,1,"{'alpha': 0.001, 'hidden_layer_sizes': (100,)}",33563.077122824885
+MLPRegressor,2,"{'alpha': 0.001, 'hidden_layer_sizes': (100,)}",23.889335280956516
+MLPRegressor,3,"{'alpha': 0.001, 'hidden_layer_sizes': (100,)}",3.7594128836112377
+MLPRegressor,4,"{'alpha': 0.001, 'hidden_layer_sizes': (100,)}",4.070321237685564
+XGBRegressor,0,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}",0.2007677045359742
+XGBRegressor,1,"{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 50}",16699.22414182721
+XGBRegressor,2,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}",0.16295546143180673
+XGBRegressor,3,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}",6.803718975329713e-07
+XGBRegressor,4,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}",0.0808313965500942
