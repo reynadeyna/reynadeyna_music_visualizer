@@ -1,8 +1,6 @@
 #  ✺1:11─ Real-time Music Visualizer ───── 4:44 ✺
 
-### This project specializes in real-time visualization of audio features. It involves extracting audio features from WAV files, augmenting the audio data, creating a dataset for visual parameters, training regression models to predict visual parameters from audio features, and dynamically visualizing the audio data using Pygame. 
-
-### The code combines real-time audio processing with dynamic visualizations using Pygame and machine learning models. It creates visually appealing patterns that respond to changes in audio features, offering an interactive and aesthetic experience.
+###  The code combines real-time audio processing with dynamic visualizations written in Python and machine learning models. It involves extracting audio features from WAV files, augmenting the audio data, creating a dataset for visual parameters, training regression models to predict visual parameters from audio features, and dynamically visualizing the audio data using Pygame.
 
 ##### Created by Reyna Deyna for educational and entertainment purposes, all music used for training the models is also owned by Reyna Deyna. While this project is not intended for scientific research yet, it functions perfectly for entertainment purposes. Its primary focus is on providing a fun experience rather than serving scientific goals or exceptional visual aesthetics.
 
